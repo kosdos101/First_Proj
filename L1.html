@@ -37,7 +37,30 @@
             <td style="width: 100px; color: aliceblue;">19.6</td>
         </tfoot>
     </table>
-
+    <br>
+    <form action="action_page.php" method="post">
+        <div><b><label style="color:wheat;" for="name">User Name:</label></b>
+        <input type="text" id="name" placeholder="Your Name" name="name"></div><br>
+        <div><b><label style="color:wheat;" for="pass">Password :</label></b>
+         <input type="password" placeholder="Your Password" id="pass" name="pass"></div><br>
+        <div><b><label style="color:wheat;" for="email">Email :</label></b>
+            <input type="email" id="email" name="email" placeholder="Youremail@gmail.com">
+        </div><br>
+        <input type="submit">
+        <input type="reset">
+        <br><br><div>
+            <label style="color:wheat;"  for="Gender">Gender :</label>
+            <select name="gender" id="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div><br>
+        <div style="color: aliceblue;border-radius: 5px;background:grey;width: 50px;height: 70px;">
+            <label for="">Time:</label>
+            <input type="radio" id="pm" name="time">Pm</input>
+            <input type="radio" name="time" id="am">Am</input>
+        </div>
+    </form>
     <!--This is a Comment-->
 </body>
 </html>
