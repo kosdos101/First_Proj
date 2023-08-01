@@ -38,7 +38,7 @@
         </tfoot>
     </table>
     <br>
-    <form action="action_page.php" method="post">
+    <form action="action_page.php" method="post" autocomplete="on">
         <div><b><label style="color:wheat;" for="name">User Name:</label></b>
         <input type="text" id="name" placeholder="Your Name" name="name"></div><br>
         <div><b><label style="color:wheat;" for="pass">Password :</label></b>
@@ -55,11 +55,13 @@
                 <option value="female">Female</option>
             </select>
         </div><br>
+        <fieldset>
         <div style="color: aliceblue;border-radius: 5px;background:grey;width: 50px;height: 70px;">
-            <label for="">Time:</label>
+            <label for="am pm">Time:</label>
             <input type="radio" id="pm" name="time">Pm</input>
             <input type="radio" name="time" id="am">Am</input>
         </div>
+        </fieldset>
     </form>
     <!--This is a Comment-->
 </body>
