@@ -5,68 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali WebSite</title>
     <link rel="shortcut icon" href="source/icons8-apple-logo-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:black;">
-     <h1 style="color:skyblue;">Hello</h1>
+<body >
+     <h1 style="border: 2px solid white;" >Hello</h1>
      <hr>
-     <p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Hic nemo voluptatibus nobis rem cumque atque numquam animi perferendis? <span style="color: blueviolet;">Eaque nisi,</span> consectetur obcaecati magni voluptas non repellendus autem nulla reiciendis assumenda.</p>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Hic nemo voluptatibus nobis rem cumque atque numquam animi perferendis? <span >Eaque nisi,</span> consectetur obcaecati magni voluptas non repellendus autem nulla reiciendis assumenda.</p>
     <img src="./source/download.jpg" alt="Image 404" title="Maeppe"><br>
     <audio  src="source/X2Download.app - Accélération, virgule, petit-pont, frappe Kylian Mbappé - Kylian Mbappe Song - Mbappe Sound Effect (128 kbps).mp3" controls loop></audio><br><br>
-    <div><a style="color: rgb(255, 0, 0); background: #000000;" href="https://www.instagram.com/leomessi/?hl=en" target="_blank" title="This takes you to your uncle"><button style="color: #000; background: #000;">Button</a></button></div>
+    <div><a  href="https://www.instagram.com/leomessi/?hl=en" target="_blank" title="This takes you to your uncle"><button >Button</a></button></div>
     <br>
-    <span style="background-color: black;"><a style="color: blueviolet;" href="mailto:ammr@gmail.com">Email me</a></span>
+    <span ><a  href="mailto:ammr@gmail.com">Email me</a></span>
     <br>
     <br>
-    <table border="1">
+    <table border="1" id="table">
         <thead>
             <tr>
-                <th style="width: 100px; color: aliceblue;">Ali</th>
-                <th style="width: 100px;color: aliceblue;">Obada</th>
-                <th style="width: 100px;color: aliceblue;">Omar</th>
-                <th style="width: 100px;color: aliceblue;">Mazen</th>
+                <th >Ali</th>
+                <th >Obada</th>
+                <th >Omar</th>
+                <th >Mazen</th>
             </tr>
         </thead>
         <tbody>
-            <td style="width: 100px; color: aliceblue;">25</td>
-            <td style="width: 100px; color: aliceblue;">16</td>
-            <td style="width: 100px; color: aliceblue;">20</td>
-            <td style="width: 100px; color: aliceblue;">9</td>
+            <td >25</td>
+            <td >16</td>
+            <td >20</td>
+            <td >9</td>
         </tbody>
         <tfoot>
-            <th style="width: 100px; color: aliceblue;" colspan="3">Averge</th>
-            <td style="width: 100px; color: aliceblue;">19.6</td>
+            <th  colspan="3">Averge</th>
+            <td >19.6</td>
         </tfoot>
     </table>
     <br>
     <form action="action_page.php" method="post" autocomplete="on">
-        <div><b><label style="color:wheat;" for="name">User Name:</label></b>
+        <div><b><label class="white"  for="name">User Name:</label></b>
         <input type="text" id="name" placeholder="Your Name" name="name"></div><br>
-        <div><b><label style="color:wheat;" for="pass">Password :</label></b>
+        <div><b><label class="white"  for="pass">Password :</label></b>
          <input type="password" placeholder="Your Password" id="pass" name="pass"></div><br>
-        <div><b><label style="color:wheat;" for="email">Email :</label></b>
+        <div class="white"><b><label  for="email">Email :</label></b>
             <input type="email" id="email" name="email" placeholder="Youremail@gmail.com">
         </div><br>
         <input type="submit">
         <input type="reset">
-        <br><br><div>
-            <label style="color:wheat;"  for="Gender">Gender :</label>
+        <br><br>
+        <div class="white">
+            <label  for="Gender">Gender :</label>
             <select name="gender" id="Gender">
                 <option value="male">Male</option>
-                <option value="female">Female</option>
+                <option  value="female">Female</option>
             </select>
         </div><br>
-        <fieldset>
-        <div style="color: aliceblue;border-radius: 5px;background:grey;width: 50px;height: 70px;">
+        <div>
+        <fieldset class="white" id="fieldset">
+        <div>
             <label for="am pm">Time:</label>
             <input type="radio" id="pm" name="time">Pm</input>
             <input type="radio" name="time" id="am">Am</input>
         </div>
         </fieldset>
     </form>
+    <div >
+        <label class="white" for="browsers"><b>Favourite Browsers</b></label>
     <input list="browsers" name="browsers">
         <datalist id="browsers">
             <option value="google">google</option>
-        </datalist>
+        </datalist></div>
     <!--This is a Comment-->
 </body>
 </html>

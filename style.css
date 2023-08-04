@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+#table{
+    background-color: black;color: white;
+}
+.white{
+    color: white;
+}
+p,h1{
+    
+    text-align: center;
+    color: white;
+}
+
+*{
+    font-style: ;
+}
