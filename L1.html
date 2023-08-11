@@ -6,13 +6,15 @@
     <title>Ali WebSite</title>
     <link rel="shortcut icon" href="source/icons8-apple-logo-48.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body >
-     <h1 >Hello</h1>
+     <h1 id="font">Hello</h1>
      <hr>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Hic nemo voluptatibus nobis rem cumque atque numquam animi perferendis? <span >Eaque nisi,</span> consectetur obcaecati magni voluptas non repellendus autem nulla reiciendis assumenda.</p>
-    <img style="float: right;" src="./source/download.jpg" alt="Image 404" title="Maeppe"><br>
-    <audio src="source/X2Download.app - Accélération, virgule, petit-pont, frappe Kylian Mbappé - Kylian Mbappe Song - Mbappe Sound Effect (128 kbps).mp3" controls loop></audio><br><br>
+     
+     <p id="font">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Hic nemo voluptatibus nobis rem cumque atque numquam animi perferendis? <span >Eaque nisi,</span> consectetur obcaecati magni voluptas non repellendus autem nulla reiciendis assumenda.</p>
+    <img id="pic" style="float: right;border-radius: 50%;" src="./source/download.jpg" alt="Image 404" title="Maeppe"><br>
+    <audio id="audio" src="source/X2Download.app - Accélération, virgule, petit-pont, frappe Kylian Mbappé - Kylian Mbappe Song - Mbappe Sound Effect (128 kbps).mp3" controls loop></audio><br><br>
     <div><a  href="https://www.instagram.com/leomessi/?hl=en" target="_blank" title="This takes you to your uncle"><button >Button</a></button></div>
     <br>
     <span ><a  href="mailto:ammr@gmail.com">Email me</a></span>
@@ -65,13 +67,16 @@
             <input type="radio" name="time" id="am">Am</input>
         </div>
         </fieldset>
-    </form>
-    <div >
+    </form><br>
+    <div>
         <label class="white" for="browsers"><b>Favourite Browsers</b></label>
-    <input list="browsers" name="browsers">
+    <input autocomplete="no" list="browsers" name="browsers">
         <datalist id="browsers">
             <option value="google">google</option>
         </datalist></div>
     <!--This is a Comment-->
+    <div id="notf">
+        New Messge From: Sara
+    </div>
 </body>
 </html>

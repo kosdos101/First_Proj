@@ -1,6 +1,10 @@
+
 body{
-    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    background: linear-gradient(to right ,black,gray);
 }
+
 #table{
     background-color: black;color: white;
 }
@@ -13,5 +17,27 @@ p,h1{
     color: white;
 }
 h1{
-    border-width: 4px;border-color: white;border-style: ridge;border-radius: 30px;
+    border-width: 4px;border-color: white;border-style: ridge;border-radius: 30px;padding: 10px;
+}
+#font{
+    font-family: "Press Start 2P" , sans-serif;
+}
+#notf{
+    background-color: rgba(0, 190, 253, 0.219);
+    padding: 10px;
+    color: white;font-family: "Press Start 2P";
+    border-left:blue solid 10px;
+    float: right;
+    position: fixed;
+    right: 10px;bottom: 10px;
+
+}
+#pic {
+    float: right;border-radius: 50%;
+    position: a;
+   
+}
+#audio{
+    float:right;
+    position: absolute;right: 10px;top: 540px;
 }
