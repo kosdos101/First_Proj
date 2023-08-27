@@ -11,15 +11,15 @@ body{
 .white{
     color: white;
 }
-p,h1{
+p,#hello{
     
     text-align: center;
     color: white;
 }
-h1{
+#hello{
     border-width: 4px;border-color: white;border-style: ridge;border-radius: 30px;padding: 10px;
 }
-#font{
+#font,#hello{
     font-family: "Press Start 2P" , sans-serif;
 }
 #notf{
@@ -46,4 +46,22 @@ h1{
 #clock{
     color: white;
     font-size: large;
+}
+#gamecontent{
+    color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.choicebtn{
+    height: 50px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    cursor: pointer;
 }

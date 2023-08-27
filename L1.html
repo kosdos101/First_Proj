@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body >
-     <h1 id="font">Hello</h1>
+     <h1 id="hello">Hello</h1>
      <hr>
      
      <p id="font">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Hic nemo voluptatibus nobis rem cumque atque numquam animi perferendis? <span >Eaque nisi,</span> consectetur obcaecati magni voluptas non repellendus autem nulla reiciendis assumenda.</p>
@@ -41,33 +41,8 @@
         </tfoot>
     </table>
     <br>
-    <form action="action_page.php" method="post" autocomplete="on">
-        <div><b><label class="white"  for="name">User Name:</label></b>
-        <input type="text" id="name" placeholder="Your Name" name="name"></div><br>
-        <div><b><label class="white"  for="pass">Password :</label></b>
-         <input type="password" placeholder="Your Password" id="pass" name="pass"></div><br>
-        <div class="white"><b><label  for="email">Email :</label></b>
-            <input type="email" id="email" name="email" placeholder="Youremail@gmail.com">
-        </div><br>
-        <input type="submit">
-        <input type="reset">
-        <br><br>
-        <div class="white">
-            <label  for="Gender">Gender :</label>
-            <select name="gender" id="Gender">
-                <option value="male">Male</option>
-                <option  value="female">Female</option>
-            </select>
-        </div><br>
-        <div>
-        <fieldset class="white" id="fieldset">
-        <div>
-            <label for="am pm">Time:</label>
-            <input type="radio" id="pm" name="time">Pm</input>
-            <input type="radio" name="time" id="am">Am</input>
-        </div>
-        </fieldset>
-    </form><br>
+   
+    <br>
     <div>
         <label class="white" for="browsers"><b>Favourite Browsers</b></label>
     <input autocomplete="no" list="browsers" name="browsers">
@@ -80,6 +55,23 @@
     </div>
     <br>
     <label for="" id="clock"></label>
+    <br>
+    <div id="gamecontent">
+        <h1 class="gametext" id="playertext">Player:</h1>
+        <h1 class="gametext" id="bottext">Bot:</h1>
+        <h3 class="gametext" id="resulttext"></h3>
+        <button class="choicebtn">Rock</button>
+        <button class="choicebtn">Paper</button>
+        <button class="choicebtn">Sceiors</button>
+
+    </div>
+
+
+
+
+
+
+
 
     <script src="Script.js"></script>
 </body>
