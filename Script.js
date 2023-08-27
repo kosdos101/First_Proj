@@ -28,7 +28,7 @@ setInterval(clock,1000);
 const playertext = document.querySelector("#playertext");
 const bottext = document.querySelector("#bottext");
 const resulttext = document.querySelector("#resulttext");
-const choicebtn = document.querySelector(".choicebtn")
+const choicebtn = document.querySelectorAll(".choicebtn")
 let player;
 let bot;
 let result;
@@ -37,7 +37,7 @@ choicebtn.forEach(button => button.addEventListener("click", () => {
     player = button.textContent;
     botturn(); 
     playertext.textContent = `Player: ${player}`;
-    bottext.textContent = `Hello ${bot}`;
+    bottext.textContent = `Bot: ${bot}`;
     resulttext.textContent = Winner();
 }));
 
