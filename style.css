@@ -30,6 +30,8 @@ h1{
     float: right;
     position: fixed;
     right: 10px;bottom: 10px;
+    cursor: pointer;
+    user-select:none
 
 }
 #pic {
@@ -40,4 +42,8 @@ h1{
 #audio{
     float:right;
     position: absolute;right: 10px;top: 540px;
+}
+#clock{
+    color: white;
+    font-size: large;
 }
